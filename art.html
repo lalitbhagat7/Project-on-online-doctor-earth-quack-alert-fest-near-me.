@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		JIIT gov
+		
+		
+	</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css\bootstrap.min.css"">
+    <link rel="icon" type="image/png" href="seven.png">
+	<style type="text/css">
+		body
+		{
+			background color : green;
+		}
+
+	</style>
+</head>
+<body>
+
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Art/Literature</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="home.html">Home</a></li>
+            <li class="active"><a href="art.html"><span class="glyphicon glyphicon-education"></span> Art/Literature </a></li>
+            <li><a href="disaster.html">Disasters Helpline</a></li>
+            <li><a href="medical.html">Techy Doctor</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a data-toggle="modal" data-target="#loginModal"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a data-toggle="modal" data-target="#loginModal"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+    </div>
+</nav>
+<p>
+<div class="container" >
+      
+      <p ><h2>You are in NCR region<span class="glyphicon glyphicon-map-marker"></span><br><br><p align="center"> Upcoming Events</p></h2></p>    </p>
+
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Name Of event</th>
+      <th scope="col">Place and Date</th>
+      <th scope="col">Link</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Delhi International Arts Festival</td>
+      <td>Date: 1st December 2017 <br>
+      Place: Delhi</td>
+      <td>www.diaf.in/</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>India Art Festival</td>
+      <td>Date: 27 December 2017 <br>
+      Place: Thyagaraj Stadium, Delhi</td>
+      <td>www.indiaartfestival.com</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td >DU Literature Fest</td>
+      <td>Date: 5 January 2018 <br>
+      Place: Hindu College, Delhi</td>
+      <td>www.duhindu.com</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<div id="map" style="width:100%;height:400px;background:yellow"></div>
+
+<script>
+function myMap() {
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {
+    center: new google.maps.LatLng(51.5, -0.2), zoom: 10
+  };
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+
+        
+
+
+</body>
+</html>

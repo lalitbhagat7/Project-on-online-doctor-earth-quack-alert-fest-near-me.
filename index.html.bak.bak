@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		JIIT gov
+		
+		
+	</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css\bootstrap.min.css"">
+	<script type="text/javascript"> 
+    var adfly_id = 12938113; 
+    var popunder_frequency_delay = 0; 
+</script> 
+<script src="http://cdn.adf.ly/js/display.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="icon" type="image/png" href="seven.png">
+	<style>
+		body
+		{
+			
+            background color : #ff8000;
+		}
+        
+	</style>
+</head>
+<body style="background-color: #ff8000;" >
+  
+
+<nav class="navbar navbar-inverse";>
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">JIIT GOVERNMENT</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="home.html"><span class="glyphicon glyphicon-home"></span> Home </span></a></li>
+            <li><a href="art.html">Art/Literature </a></li>
+            <li><a href="disaster.html">Disasters Helpline</a></li>
+            <li><a href="medical.html">Techy Doctor</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a data-toggle="modal" href="index.html" data-target="#loginModal"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a data-toggle="modal" data-target="#loginModal"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+
+
+
+
+
+<div class="container bg-primary">
+    <div class="row center-block" id="home" style="width: 60%; height:inherit; ;">
+        <h2>WELCOME!!</h2>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
+            
+            <div class="carousel-inner">
+                <div class="item  active">
+                    <img src="art.jpg" alt="IMG 1" style="width:100%;">
+                    <div class="carousel-caption">
+                    <h3>Art/Literature</h3>
+                    <p>Find events near you...</p>
+                    </div>
+                </div>
+                <div class="item">
+                <img src="disa1.jpg" alt="Disa1">
+                <div class="carousel-caption">
+                    <h3>Disaster Helpline</h3>
+                    <p>Find your nearest help squad...</p>
+                    </div>
+                </div>
+                <div class="item">
+                <img src="art2.jpg" alt="art2">
+                <div class="carousel-caption">
+                    <h3>Art/Literature</h3>
+                    <p>Find events near you...</p>
+                    </div>
+                </div>
+                <div class="item">
+                <img src="disa2.jpg" alt="disa2">
+                <div class="carousel-caption">
+                <h3>Disaster Helpline</h3>
+                    <p>Find your nearest help squad...</p>
+                    </div>
+                </div>
+                 <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+                    </div>
+                </div>
+            </div>
+<a href="http://www.reliablecounter.com" target="_blank"><img src="http://www.reliablecounter.com/count.php?page=www.shivamtut.tech&digit=style/plain/12/&reloads=0" alt="" title="" border="0"></a><br /><a href="http://www.curinglight.com" target="_blank" style="font-family: Geneva, Arial; font-size: 9px; color: #330010; text-decoration: none;">www.curinglight.com</a>
+<a href="https://smallseotools.com/visitor-hit-counter/" target="_blank" title="Web Counter">
+    <img src="https://smallseotools.com/counterDisplay?code=&style=&pad=&type=page&initCount="  title="Web Counter" Alt="Web Counter" border="0">
+</a>
+
+</body>
+</html>
